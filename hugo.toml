@@ -1,0 +1,60 @@
+baseURL = 'https://arkannon.com/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+author = 'Arkannon'
+theme = 'arkannon'
+assetDir = "static"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/ArkieSoft"
+icon = "nf nf-fa-github"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://x.com/arkiearkannon"
+icon = "nf nf-fa-twitter"
+
+[[params.social]]
+key = 2
+name = "mastodon"
+url = "https://kolektiva.social/@arkannon"
+icon = "nf nf-fa-mastodon"
+
+[[params.social]]
+key = 3
+name = "mail"
+url = "mailto:arkannon@arkannon.com"
+icon = "nf nf-cod-mail"
+
+[[params.social]]
+key = 4
+name = "discord"
+url = "https://discord.gg/linux"
+icon = "nf nf-fa-discord"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    url = "/blog"
+    weight = 15
+
+  [[menu.header]]
+    name = "links"
+    url = "links"
+   
+  [[menu.header]]
+    name = "github"
+    url = "https://github.com/ArkieSoft"
+    weight = 20
+
+ 
