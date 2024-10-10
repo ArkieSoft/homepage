@@ -15,7 +15,7 @@ I already daily drive the cosmic greeter, and the only things I have to say is t
 Upon entering the newly update environment, the appearance settings largely stayed the same with one exception. You will notice a lot of icons on the desktop. This is because Cosmic 2 allows, by default, desktop icons now and Steam automatically creates desktop icons. You can simply delete them, or turn this fucntionality off (Like someone using a computer in the Year of our Lord, 2024) in the settings app under Desktop>Appearance. Otherwise it all looks business as usual.
 
 
-# ++Issues From Alpha 2 and How Have They Changed in Alpha 2++
+# ++Issues From Alpha 1 and How Have They Changed in Alpha 2++
 
 ## Janky Settings App
 
