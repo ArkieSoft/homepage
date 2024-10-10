@@ -2,6 +2,8 @@
 title = 'Cosmic Alpha 2 Review'
 date = 2024-10-09T12:41:29-07:00
 draft = false
+author = "Arkannon"
+tags = ['Unix', 'Linux', 'Cosmic' ]
 +++
 ![cosmic](/blog/2024/images/cosmic-desktop.png)
 Cosmic Alpha 2 is out and it is downright an improvement beyond my expectations. Having tried Alpha 1, I had an idea of what to expect, but out of the problems I have noticed, most have been fixed. I will lay out the issues I found with Alpha 1, and what has changed.
