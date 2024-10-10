@@ -25,7 +25,7 @@ In Alpha 2, this hasn't changed all that much, but it is nonetheless useable.
 
 ![Settings app messing up](/blog/2024/images/cosmic-settings.gif)
 
-## Games on Cosmic aree Unstable at Best.
+## Games on Cosmic are Unstable at Best.
 
 Gaming on an experimental environment is not recommended but I know we all will do it. On Alpha 1, games had a lot of trouble sizing correctly in the WM side of things, tiled or not. When attempting to resize, the game will freeze, crash, or blink a lot as I think it defaulted to native resolution and the game had to change resolution accordinglly (I could be wrong here, please don't skewer me for it). 
 
