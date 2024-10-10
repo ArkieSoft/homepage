@@ -14,6 +14,12 @@ assetDir = "static"
   [markup.goldmark.extensions.extras.insert]
     enable = true
 
+
+[params]
+published = false
+readingTime = false
+sitedescription = "Arkannon's Homepage"
+
 [[params.social]]
 key = 0
 name = "github"
@@ -43,6 +49,9 @@ key = 4
 name = "discord"
 url = "https://discord.gg/linux"
 icon = "nf nf-fa-discord"
+
+[params.meta]
+favicon = false
 
 [menu]
   [[menu.header]]
