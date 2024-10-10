@@ -11,6 +11,7 @@ Cosmic Alpha 2 is out and it is downright an improvement beyond my expectations.
 I have it installed on NixOS under the 24.05 branch. I am using [Lily Foster's](https://github.com/lilyinstarlight/nixos-cosmic) module to install it. If you install on different distros or in a different way, your mileage may vary.
 
 # ++First Experience++
+{style="color: green"}
 
 I already daily drive the cosmic greeter, and the only things I have to say is that it just works with a few quirks. First of all, if you have a multi-display setup, there is no setting to fix the monitor layout. Fortunately, it is mirrored among all monitors so no matter what, you can get your business done. You can select your DE/WM with the cog button, and it uses the Comic DE wallpaper settings automatically. 
 
@@ -18,6 +19,7 @@ Upon entering the newly update environment, the appearance settings largely stay
 
 
 # ++Issues From Alpha 1 and How Have They Changed in Alpha 2++
+{style="color: green"}
 
 ## Janky Settings App
 
@@ -35,6 +37,7 @@ In Alpha 2, I am sure this is largely fixed as the option to scale apps works wo
 
 
 # ++New and Cool Things in Alpha 2++
+{style="color: green"}
 
 ## Files
 
@@ -48,7 +51,7 @@ This isn't a problem, per se, but the Cosmic App UI had an old Adwaita feel with
 
 
 # ++What System76 Doesn't Tell You++
-
+{style="color: green"}
 So it was mentioned in the changelog that cursor follows focus and vice versa. For those who are unfamiliar, if you move your cursor to hover over another app, the focus will now automatically shift. There is a thing that is not told, though. If you simply try it out, you will notice the focus seems a little.... slow. Well there is a setting to change that. Apparently, system76 hired a sloth to make this because there is a timed delay before focus is actually shifted. The default is 250 ms. It is definitly noticeable. My recommendation is to bring it down to 100 ms. 
 
 ![Cosmic Settings Focus Delay](/blog/2024/images/cosmic-focus-delay.png)
@@ -59,6 +62,7 @@ Note: This setting also affects the focus of panel option widgets. This means if
 
 
 # ++My Wishlist++
+{style="color: green"}
 
 I am not making any demands to System76 at this time (that comes later when I get majority ownership /j). I do, however have things I would like to see that aren't exactly missing, but simply might not be a design decision of theirs. I like to make this disctinction as not having what I like doesn't mean it is bad. It just means that it is designed differently for different people. 
 
@@ -76,6 +80,7 @@ The Cosmic Panel is always visible. It would be nice to have the option to have 
 
 
 # ++Do I Recommend it For Everyday Use?++
+{style="color: green"}
 
 Short answer, no. Long answer, maybe. If you are the tinkering type in the settings, then it is definitely not for you, but it is definitely very stable which is something that System76 definitly spent a lot of time on before releasing. The DE is still a little quirky and needs some getting used to if you are used to KDE and will feel somewhat similar if you're a GNOME user. I spent an hour tweaking keyboard shortcuts to match my Hyprland config/muscle memory and changing some basic settings like disabling the dock (No hate, just not a fan of docks). 
 
