@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on My New Hugo Site</title>
-    <link>https://arkannon.com/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Oct 2024 12:41:29 -0700</lastBuildDate>
-    <atom:link href="https://arkannon.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cosmic Alpha 2 Review</title>
-      <link>https://arkannon.com/blog/2024/cosmic-alpha2-review/</link>
+      <link>http://localhost:1313/blog/2024/cosmic-alpha2-review/</link>
       <pubDate>Wed, 09 Oct 2024 12:41:29 -0700</pubDate>
-      <guid>https://arkannon.com/blog/2024/cosmic-alpha2-review/</guid>
+      <guid>http://localhost:1313/blog/2024/cosmic-alpha2-review/</guid>
       <description>Cosmic Alpha 2 is out and it is downright an improvement beyond my expectations. Having tried Alpha 1, I had an idea of what to expect, but out of the problems I have noticed, most have been fixed. I will lay out the issues I found with Alpha 1, and what has changed.&#xA;I have it installed on NixOS under the 24.05 branch. I am using Lily Foster&amp;rsquo;s module to install it.</description>
     </item>
   </channel>
