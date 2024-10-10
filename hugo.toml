@@ -45,7 +45,7 @@ icon = "nf nf-fa-discord"
 [menu]
   [[menu.header]]
     name = "blog"
-    url = "/blog"
+    url = "/blog/"
     weight = 15
 
   [[menu.header]]

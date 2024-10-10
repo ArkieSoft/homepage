@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+Cosmic Alpha 2 Review | 
+</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+
+<meta name="generator" content="Hugo 0.126.1">
+
+
+<link rel="canonical" href="http://localhost:1313/blog/2024/cosmic-alpha2-review/" >
+
+
+
+
+<link href="/css/style.min.913c2f778075b2e324bc89252db18b821fb145df87fecaa502492b4d49fd015c.css" rel="stylesheet">
+
+<html lang="en">
+  <head>
+    <link href="https://www.nerdfonts.com/assets/css/webfont.css"
+      rel="stylesheet"/>
+  </head>
+</html>
+
+
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a class="terminal" href="http://localhost:1313/">
+              
+              <img src="/images/popcat.gif" alt="My gifsona" height="60" width="60">
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="http://localhost:1313/blog/" title="" >
+                        ~/blog</a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/ArkieSoft" title="" >
+                        ~/github</a>
+                </li>
+                
+                <li>
+                    <a href="http://localhost:1313/links" title="" >
+                        ~/links</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>Cosmic Alpha 2 Review</h1>
+    
+    
+    <section class="postMetadata">
+        <dl>
+            
+            
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2024-10-09">October 9, 2024</time></dd>
+            
+            
+                <dt>reading time</dt>
+                <dd>7 minutes</dd>
+            
+        </dl>
+    </section>
+    
+    <div>
+        <p>Cosmic Alpha 2 is out and it is downright an improvement beyond my expectations. Having tried Alpha 1, I had an idea of what to expect, but out of the problems I have noticed, most have been fixed. I will lay out the issues I found with Alpha 1, and what has changed.</p>
+<p>I have it installed on NixOS under the 24.05 branch. I am using <a href="https://github.com/lilyinstarlight/nixos-cosmic">Lily Foster&rsquo;s</a> module to install it. If you install on different distros or in a different way, your mileage mauy vary.</p>
+<h1 id="first-experience">First Experience</h1>
+<p>I already daily drive the cosmic greeter, and the only things I have to say is that it just works with a few quirks. First of all, if you have a multi-display setup, there is no setting to fix the monitor layout. Fortunately, it is mirrored among all monitors so no matter what, you can get your business done. You can select your DE/WM with the cog button, and it uses the Comic DE wallpaper settings automatically.</p>
+<p>Upon entering the newly update environment, the appearance settings largely stayed the same with one exception. You will notice a lot of icons on the desktop. This is because Cosmic 2 allows, by default, desktop icons now and Steam automatically creates desktop icons. You can simply delete them, or turn this fucntionality off (Like someone using a computer in the Year of our Lord, 2024) in the settings app under Desktop&gt;Appearance. Otherwise it all looks business as usual.</p>
+<h1 id="issues-from-alpha-2-and-how-have-they-changed-in-alpha-2">Issues From Alpha 2 and How Have They Changed in Alpha 2</h1>
+<h2 id="janky-settings-app">Janky Settings App</h2>
+<p>The settings app is good, but needs optimization. The biggest offender is under &ldquo;Desktop&rdquo;, the Appearance tab is slow to load and attempts to update settings live with varying results depending on the individual setting. Fonts, secondary colors, and the grouping settings are not live, and will partially freeze the app when selected. Not a big deal as you can quit the app and reopen with the settings applied. Because settings opens back to the section it was at previously, it will take some time to open again. Besides that hiccup, it is overall reliable and I hope this problem gets fixed.</p>
+<p>In Alpha 2, this hasn&rsquo;t changed all that much, but it is nonetheless useable.</p>
+<h2 id="games-on-cosmic-is-unstable-at-best">Games on Cosmic is Unstable at Best.</h2>
+<p>Gaming on an experimental environment is not recommended but I know we all will do it. On Alpha 1, games had a lot of trouble sizing correctly in the WM side of things, tiled or not. When attempting to resize, the game will freeze, crash, or blink a lot as I think it defaulted to native resolution and the game had to change resolution accordinglly (I could be wrong here, please don&rsquo;t skewer me for it).</p>
+<p>In Alpha 2, I am sure this is largely fixed as the option to scale apps works wonders for games. Now, no one is going to tile a game in a weird aspect ratio, but for the space aliens that do, here are some things. When tiled, the game kind of compresses or stretches to fit the WM. This leads to the game looking squished, and the mouse tracking matches the game at it&rsquo;s initial state. Games generally start off maximized (like most gamers prefer) so the mouse tracking works best in that state. I even took the time to torture The Binding of Isaac and Civilization VI with the tiling and they were handled effortlessly by the WM and the only things weird were mentioned above. Overall, a very useable experience.</p>
+<h1 id="new-and-cool-things-in-alpha-2">New and Cool Things in Alpha 2</h1>
+<h2 id="files">Files</h2>
+<p>The Cosmic Files app was good in Alpha 1. In Alpha 2, they have only made it better. By default, it automatically accesses mountable hardware (flash drives). It now has a built in archive tool that compresses and extracts quickly and with no fuss. Has good sorting features that come standard in most file managers. There is a keyboard shortcut to add a folder to the sidebar (Ctrl+D), but you can&rsquo;t drag and drop for some reason. It is limited on viewing in terms of resources and I don&rsquo;t know why. To stress test it, I navigated to /nix/store, which has thousands of directories and basically contains my entire OS. This froze the app and it climbed up to 3Gb of memory useage and was probably climbing further. I had to <code>pkill Files</code> in order to close it out. To be fair, Thunar is also not the fastest when trying out the same directory. Another thing to note is the network drive section looks very intuitive and even contains a reference guide to help you use the varying technologies you might want to connect with.</p>
+<h2 id="ui-grouping-changes">UI Grouping Changes</h2>
+<p>This isn&rsquo;t a problem, per se, but the Cosmic App UI had an old Adwaita feel with how spread out pieces of the app are. This made it feel old. Thankfully, there is now an option to change it to make it all look more compact. You can find it in the Setting app in Desktop&gt;Appearance.</p>
+<h1 id="what-system76-doesnt-tell-you">What System76 Doesn&rsquo;t Tell You</h1>
+<p>So it was mentioned in the changelog that cursor follows focus and vice versa. For those who are unfamiliar, if you move your cursor to hover over another app, the focus will now automatically shift. There is a thing that is not told, though. If you simply try it out, you will notice the focus seems a little&hellip;. slow. Well there is a setting to change that. Apparently, system76 hired a sloth to make this because there is a timed delay before focus is actually shifted. The default is 250 ms. It is definitly noticeable. My recommendation is to bring it down to, at most, 100 ms. I brought it down to 50 ms.</p>
+<h1 id="heading"></h1>
+<h1 id="my-wishlist">My Wishlist</h1>
+<p>I am not making any demands to System76 at this time (that comes later when I get majority ownership /j). I do, however have things I would like to see that aren&rsquo;t exactly missing, but simply might not be a design decision of theirs. I like to make this disctinction as not having what I like doesn&rsquo;t mean it is bad. It just means that it is designed differently for different people.</p>
+<h2 id="workspace-options">Workspace Options</h2>
+<p>The current options are workspaces per monitor, or systemwide workspaces. I would like bind a certain workspace to a single monitor and address the monitor via workspace like I can do with i3/Sway and Hyprland. I feel like this is something that can be done with a plugin in the future, and may just not be on the design table for System76.</p>
+<h2 id="effectsgifs-for-wallpapers">Effects/GIFs For Wallpapers</h2>
+<p>The wallpaper system is awesome. It just works and is implimented in the Settings app. However, apart from forming a slideshow, there isn&rsquo;t much in the way with transition effects or GIF compatibility. I would like to see this, and can see this being implimented in a later version of Cosmic. As of now, it is going to be, understandibly, low priority.</p>
+<h2 id="remove-panel-for-fullscreening-apps">Remove Panel For Fullscreening apps</h2>
+<p>The Cosmic Panel is always visible. It would be nice to have the option to have fullscreen apps like games autohide the panel without making the panel autohide globally.</p>
+<h1 id="do-i-recommend-it-for-everyday-use">Do I Recommend it For Everyday Use?</h1>
+<p>Short answer, no. Long answer, maybe. If you are the tinkering type in the settings, then it is definitely not for you, but it is definitely very stable which is something that System76 definitly spent a lot of time on before releasing. The DE is still a little quirky and needs some getting used to if you are used to KDE and will feel somewhat similar if you&rsquo;re a GNOME user. I spent an hour tweaking keyboard shortcuts to match my Hyprland config/muscle memory and changing some basic settings like disabling the dock (No hate, just not a fan of docks).</p>
+<p>The Files app, however, I plan on using as a possibly replacement for Thunar. Thunar needs other external applications to impliment certain functions that Files does effortlessly. As for the performance issues when accessing /nix/store/, I feel like that is something that I would use <code> ls | grep</code> to navigate through anyways.</p>
+
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+ <p>Adapted by a nerd with too much time.</p>
+</footer>
+
+    </div>
+
+</body>
+
+</html>
