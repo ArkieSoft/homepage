@@ -11,6 +11,8 @@ assetDir = "static"
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
+  [markup.goldmark.extensions.extras.insert]
+    enable = true
 
 [[params.social]]
 key = 0
