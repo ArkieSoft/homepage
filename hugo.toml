@@ -1,6 +1,6 @@
 baseURL = 'https://arkannon.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Arkannon's Homepage"
 author = 'Arkannon'
 theme = 'arkannon'
 assetDir = "static"
@@ -25,6 +25,9 @@ key = 0
 name = "github"
 url = "https://github.com/ArkieSoft"
 icon = "nf nf-fa-github"
+
+[params.author]
+name = "Arkannon"
 
 [[params.social]]
 key = 1

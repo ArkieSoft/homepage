@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Arkannon&#39;s Homepage</title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blogs on Arkannon&#39;s Homepage</description>
+    <title>Linguistics on Arkannon&#39;s Homepage</title>
+    <link>http://localhost:1313/tags/linguistics/</link>
+    <description>Recent content in Linguistics on Arkannon&#39;s Homepage</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Oct 2024 20:23:40 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linguistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arkian Cyrillic</title>
       <link>http://localhost:1313/blog/2024/arkian-cyrillic/</link>
       <pubDate>Sat, 12 Oct 2024 20:23:40 -0700</pubDate>
       <guid>http://localhost:1313/blog/2024/arkian-cyrillic/</guid>
       <description>So I was given a link to the &amp;ldquo;Cyrillish&amp;rdquo; script, and I found the concept interesting. Any anglophone and specifically English Second Language (ESL) speakers will say that the english writing system is incoherent. Exceptions, galore. Inconsistencies everywhere. So much so that people throughout history have made attempts at writing new writing systems for English that gel with modern day useage. Among these include going back to the old English Anglo-Saxon runes adapted from Elder Futharc, the Shavian Alphabet, or Benjamin Franklin&amp;rsquo;s Phonetic Alphabet.</description>
-    </item>
-    <item>
-      <title>Cosmic Alpha 2 Review</title>
-      <link>http://localhost:1313/blog/2024/cosmic-alpha2-review/</link>
-      <pubDate>Wed, 09 Oct 2024 12:41:29 -0700</pubDate>
-      <guid>http://localhost:1313/blog/2024/cosmic-alpha2-review/</guid>
-      <description>Cosmic Alpha 2 is out and it is downright an improvement beyond my expectations. Having tried Alpha 1, I had an idea of what to expect, but out of the problems I have noticed, most have been fixed. I will lay out the issues I found with Alpha 1, and what has changed.&#xA;I have it installed on NixOS under the 24.05 branch. I am using Lily Foster&amp;rsquo;s module to install it.</description>
     </item>
   </channel>
 </rss>
